@@ -1,0 +1,30 @@
+body{
+    font-family:Josefin Sans;
+    background-color: #F5DBBB ;
+    color: #705D48;
+    font-size: 20pt;
+}
+
+h1, h2, h3, h4 h5, h6 {
+    font-family: "Righteous";
+    font-size: 10pt;
+}
+
+header {
+    text-align: center;
+}
+
+#hero, footer {
+    color:#F5DBBB ;
+    border: 4px solid #705D48;
+    background-color: #F0A752;
+    text-align: center;
+    padding:10px;
+}
+#hero img {
+    width:300px;
+}
+
+#bio {
+    text-align: center;
+}
