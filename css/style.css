@@ -7,7 +7,10 @@ body{
 
 h1, h2, h3, h4 h5, h6 {
     font-family: "Righteous";
-    font-size: 10pt;
+    font-size: 40pt;
+}
+h2 {
+    font-size: 20pt;
 }
 
 header {
@@ -27,4 +30,10 @@ header {
 
 #bio {
     text-align: center;
+}
+
+#hobbies ul li:nth-child(even) {
+ color: #000000;
+ text-shadow: #000000;
+ text-decoration: dashed;
 }
