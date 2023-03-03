@@ -24,16 +24,37 @@ header {
     text-align: center;
     padding:10px;
 }
+
+/*Hero Section*/
+
 #hero img {
     width:300px;
 }
-
+/* Bio Section*/
 #bio {
     text-align: center;
 }
-
+/*hobbies*/
 #hobbies ul li:nth-child(even) {
  color: #000000;
  text-shadow: #000000;
  text-decoration: dashed;
+}
+
+/*Gallery*/
+
+#gallery {
+    border: 2px solid #000000
+
+}
+
+
+#gallery img {
+    max-width: 100%;
+
+}
+
+$gallery figure {
+    text-align: center;
+
 }
