@@ -9,6 +9,10 @@ h1, h2, h3, h4 h5, h6 {
     font-family: "Righteous";
     font-size: 40pt;
 }
+
+
+
+
 h2 {
     font-size: 20pt;
 }
@@ -35,11 +39,21 @@ header {
     text-align: center;
 }
 /*hobbies*/
+
+section #hobbies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
 #hobbies ul li:nth-child(even) {
  color: #000000;
  text-shadow: #000000;
  text-decoration: dashed;
-}
+ }
+
 
 /*Gallery*/
 
@@ -76,4 +90,90 @@ margin-bottom: 2rem;
 #lit div p::first-letter {
     float:left;
     font-size:3em;
+}
+
+@media screen and (min-width: 60em) {
+
+    figure {
+        display: grid;
+        grid-template-columns: 2fr;
+    }
+     figcaption {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem
+        margin-left: 1rem;
+    
+     }
+}
+
+/* Default styles for the hobby section */
+section #hobbies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Styles for screens with a minimum width of 768px */
+@media screen and (min-width: 768px) {
+    section #hobbies {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+
+/* Styles for screens with a minimum width of 992px */
+@media screen and (min-width: 992px) {
+    section #hobbies {
+        justify-content: space-between;
+    }
+}
+
+/* Styles for screens with a minimum width of 1200px */
+@media screen and (min-width: 1200px) {
+    section #hobbies {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
+
+
+
+/* Default styles for the gallery */
+#gallery {
+    border: 2px solid #000000;
+    margin-bottom: 2rem;
+}
+
+#gallery img {
+    max-width: 100%;
+}
+
+#gallery figure {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+#gallery figcaption {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+/* Media query for screens with a minimum width of 768px */
+@media screen and (min-width: 768px) {
+    #gallery figure {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+/* Media query for screens with a minimum width of 992px */
+@media screen and (min-width: 992px) {
+    #gallery figure {
+        grid-template-columns: repeat(5, 1fr);
+    }
 }
