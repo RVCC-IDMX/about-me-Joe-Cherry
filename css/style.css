@@ -102,7 +102,7 @@ margin-bottom: 2rem;
         display:flex;
         justify-content: center;
         align-items: center;
-        font-size: 2rem
+        font-size: 2rem;
         margin-left: 1rem;
     
      }
@@ -177,3 +177,16 @@ section #hobbies {
         grid-template-columns: repeat(5, 1fr);
     }
 }
+
+iframe {
+    border: 1px solid #000000;
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    caption-side: top;
+    align-self: center;
+  }
+  
+  
