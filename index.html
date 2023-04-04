@@ -133,40 +133,51 @@
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/n26LnZatwRg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
     
+    
+
+
+
     <section id="contact">
       <h2>Contact</h2>
-       
-         <form method="post" data-netlify="true"></form>
-
+      <form method="post" data-netlify="true" class="contact-form">
         <fieldset>
-          
           <legend>Contact Form</legend>
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name" required>
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required>
-          <label for="phone">Phone:</label>
-          <input type="tel" id="phone" name="phone">
-          <label for="phone-type">Phone Type:</label>
-          <select id="phone-type" name="phone-type">
-            <option value="home">Home</option>
-            <option value="work">Work</option>
-            <option value="mobile">Mobile</option>
-          </select>
-          <label for="message">Message:</label>
-          <textarea id="message" name="message"></textarea>
-          <ul>
-            <li>
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone">
+          </div>
+          <div class="form-group">
+            <label for="phone-type">Phone Type:</label>
+            <select id="phone-type" name="phone-type">
+              <option value="home">Home</option>
+              <option value="work">Work</option>
+              <option value="mobile">Mobile</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+          </div>
+          <div class="form-group">
+            <label>Follow-up:</label>
+            <div class="radio-group">
               <label><input type="radio" name="follow-up" value="yes"> Yes</label>
-            </li>
-            <li>
               <label><input type="radio" name="follow-up" value="no" checked> No</label>
-            </li>
-          </ul>
-          <input type="submit" value="Submit">
+            </div>
+          </div>
+          <button type="submit" class="submit-button">Submit</button>
         </fieldset>
       </form>
     </section>
+    
     
 
     <footer>

@@ -188,5 +188,74 @@ iframe {
     caption-side: top;
     align-self: center;
   }
+
+  /* Set max-width for the form */
+.contact-form {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
   
+  /* Style fieldset */
+  .contact-form fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
   
+  /* Style legend */
+  .contact-form legend {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Style form group */
+  .contact-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Style labels */
+  .contact-form label {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  /* Style inputs */
+  .contact-form input,
+  .contact-form select,
+  .contact-form textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin-top: 5px;
+    background-color: #f7f7f7;
+  }
+  
+  /* Style radio group */
+  .contact-form .radio-group {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+  }
+  
+  /* Style radio button labels */
+  .contact-form .radio-group label {
+    margin-right: 20px;
+    font-size: 1.2rem;
+    color: #333;
+  }
+
+  
+ 
+
+
