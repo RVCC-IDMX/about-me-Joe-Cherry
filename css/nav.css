@@ -24,7 +24,14 @@ main{
 
 /* navbar */
 
-
+.navbar {
+    background-color: rgb(243, 188, 105);
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
 
 /* logo */
 
