@@ -35,17 +35,50 @@ main{
 
 /* logo */
 
+.logo {
+    display: flex;
+    align-items: center;
 
+}
+
+.logo img {
+    height: 5vw;
+    width: 5vw;
+}
+.logo h1 {
+    font-size: 1.2em;
+}
 
 /* navigation list */
 
+.navbar-links li {
+    list-style: none;
+    display: block;
+    padding: 0.5em 0;
+    letter-spacing: 2px;
+}
 
 /*  
  style all a tags in header 
  and then on hover
 */
 
+.navbar-links a {
+    color:rgb(78, 78, 78);
+    background-color: #ffeace;
+    font-size: 1.5rem;
+    padding: 1rem 1.25rem;
+    display: inline-block;
+    
+}
 
+.navbar-links a:hover,
+.navbar-links a:focus {
+filter: invert(1);
+border-radius: 10px;
+outline: none;
+
+}
 
 
 
