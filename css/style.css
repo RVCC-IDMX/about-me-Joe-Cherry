@@ -18,13 +18,13 @@ h1, h2, h3, h4 h5, h6 {
  
 
 
-
 h2 {
     font-size: 20pt;
 }
 
 h3 {
-    font-size: 30pt;
+    font-size: 40pt;
+    text-align: center;
 }
 
 header {
@@ -218,77 +218,58 @@ iframe {
   }
 
   /* Set max-width for the form */
-#contact-form {
+
+  #contact {
+    background-color: #ffc987;
+    padding: 50px 0;
+  }
+  
+  .contact-form {
     max-width: 600px;
-    margin: auto;
-    padding: 20px;
-    border: 3px solid #000000;
-    border-radius: 10px;
+    margin: 0 auto;
   }
   
-  /* Style fieldset */
-  #contact-form fieldset {
-    border: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  /* Style legend */
-  #contact-form legend {
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-bottom: 20px;
-    color: #333;
-  }
-  
-  /* Style form group */
-  #contact-form .form-group {
-    margin-bottom: 20px;
-  }
-  
-  /* Style labels */
-  #contact-form label {
-    display: block;
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin-bottom: 5px;
-    color: #333;
-  }
-  
-  /* Style inputs */
-  #contact-form input,
-  #contact-form select,
-  #contact-form textarea {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    font-size: 1.2rem;
-    margin-top: 5px;
-    background-color: #f7f7f7;
-  }
-  
-  /* Style radio group */
-  #contact-form .radio-group {
+  .form-group {
     display: flex;
-    align-items: center;
-    margin-top: 5px;
+    flex-direction: column;
+    margin-bottom: 20px;
   }
   
-  /* Style radio button labels */
-  #contact-form .radio-group label {
-    margin-right: 20px;
-    font-size: 1.2rem;
-    color: #333;
+  .form-group label {
+    font-size: 16px;
+    margin-bottom: 5px;
   }
-
   
-
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #F5DBBB;
+  }
+  
+  .form-group select {
+    appearance: none;
+    -webkit-appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="%23c4c4c4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"></path></svg>');
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) center;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  .radio-group label {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .radio-group input[type="radio"] {
+    display: none;
+  }
   
   
-
-  
- 
-
-
