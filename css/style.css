@@ -25,7 +25,16 @@ h2 {
 h3 {
     font-size: 40pt;
     text-align: center;
+    animation: shake 0.5s ease-in-out;
 }
+
+@keyframes shake {
+    0% { transform: translate(0, 0); }
+    25% { transform: translate(-5px, 5px); }
+    50% { transform: translate(0, 10px); }
+    75% { transform: translate(5px, 5px); }
+    100% { transform: translate(0, 0); }
+  }
 
 header {
     text-align: center;
@@ -59,10 +68,19 @@ section #hobbies {
 
 
 #hobbies ul li:nth-child(even) {
- color: #000000;
- text-shadow: #000000;
- text-decoration: dashed;
- }
+    color: #000000;
+    text-decoration: dashed;
+    animation: shake 0.5s ease-in-out;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(0, 0); }
+    25% { transform: translate(-5px, 5px); }
+    50% { transform: translate(0, 10px); }
+    75% { transform: translate(5px, 5px); }
+    100% { transform: translate(0, 0); }
+  }
+  
 
 
 /*Gallery*/
