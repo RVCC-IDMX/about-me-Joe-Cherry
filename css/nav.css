@@ -26,14 +26,82 @@ main{
 /* navbar */
 
 .navbar {
-    background-color: rgb(243, 188, 105);
-    color: whitesmoke;
     display: flex;
-    flex-direction: column;
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
+    justify-content: space-between;
+    align-items: center;
     padding: 1rem;
-}
+    background-color: #fff;
+  }
+  
+  .navbar-logo {
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .navbar-links {
+    display: none;
+  }
+  
+  .navbar-links ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .navbar-links li {
+    margin: 0;
+  }
+  
+  .navbar-links a {
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-links {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background-color: #f0a651;
+      z-index: 1;
+    }
+  
+    .navbar-links ul {
+      flex-direction: column;
+    }
+  
+    .navbar-toggler {
+      display: block;
+      background-color: #f0a651;
+      border: none;
+      cursor: pointer;
+    }
+  
+    .navbar-toggler:focus,
+    .navbar-toggler:active,
+    .navbar-toggler:hover {
+      outline: none;
+    }
+  
+    .navbar-toggler-icon {
+      display: block;
+      width: 2rem;
+      height: 2rem;
+      background-image: url('path/to/hamburger-icon.png');
+      background-size: cover;
+    }
+  
+    .navbar-links.active {
+      display: block;
+    }
+  }
+  
 
 /* logo */
 
