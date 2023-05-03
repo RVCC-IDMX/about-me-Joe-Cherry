@@ -24,4 +24,10 @@ Brown around the borders: 705D48
 
 Orange to give it some pop: #f0a651
 
+I also added a Navigation Bar for Mobile devices to mgive the website a cleaner look
 
+Silverman, Anne Shaw and Chloe. “How Inflation Impacts Businesses: Small Biz Ahead.” Small Biz Ahead Blog– Small Business Owners | Accounting | Digital Currency, 14 Apr. 2023, https://sba.thehartford.com/finance/what-is-inflation/. 
+
+Fitzgerald, Anna. “The Ultimate Guide to Animations in CSS.” HubSpot Blog, HubSpot, 20 Apr. 2022, https://blog.hubspot.com/website/css-animation. 
+
+Andybell. “Animations.” Web.dev, https://web.dev/learn/css/animations/. 
